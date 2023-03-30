@@ -10,8 +10,8 @@ function Header(props) {
             </div>
             <div className="headerContainerRight">
                 <div className="headerContainerRightNav">
-                    <a className="headerContainerRightNavText">GitHub</a>
-                    <a className="headerContainerRightNavText2">LinkedIn</a>
+                    <a href="https://github.com/cmacariovx" className="headerContainerRightNavText">GitHub</a>
+                    <a href="https://www.linkedin.com/in/carlos-macariooo/" className="headerContainerRightNavText2">LinkedIn</a>
                 </div>
             </div>
         </div>
