@@ -71,3 +71,9 @@
             transition: 0.1s linear;
             color: rgb(25, 158, 235);
         }
+
+@media screen and (max-width: 500px) {
+    .headerContainer {
+        padding: 20px 40px;
+    }
+}

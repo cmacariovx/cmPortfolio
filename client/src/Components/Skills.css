@@ -1,5 +1,6 @@
 .skillsContainer {
-    height: 600px;
+    min-height: 600px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@
 
     .skillsOptionContainer1 {
         min-height: 100px;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -29,13 +31,14 @@
         align-items: center;
         border-radius: 4px;
         margin-bottom: 60px;
-        padding: 10px 20px;
+        padding: 20px;
         background-color: #181818;
         border-left: 2px solid rgb(32, 133, 248);
     }
 
     .skillsOptionContainer2 {
         min-height: 100px;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -43,7 +46,7 @@
         justify-content: space-between;
         align-items: center;
         border-radius: 4px;
-        padding: 10px 20px;
+        padding: 20px;
         background-color: #181818;
         margin-bottom: 60px;
         border-left: 2px solid rgb(32, 151, 248);
@@ -58,3 +61,36 @@
             font-size: 17px;
             user-select: none;
         }
+
+@media screen and (max-width: 1250px) {
+    .skillsContainer {
+        padding: 20px 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .skillsContainer {
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skillsContainer {
+        padding: 20px 60px;
+    }
+
+    .skillsOptionContainerLeftText {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skillsContainer {
+        padding: 20px 40px;
+    }
+
+    .skillsOptionContainerLeftText2 {
+        font-size: 16px;
+        user-select: none;
+    }
+}

@@ -22,3 +22,13 @@
     transition: 0.1s linear;
     color: rgba(255, 0, 81, 1);
 }
+
+@media screen and (max-width: 500px) {
+    .footerContainer {
+        padding: 20px 40px;
+    }
+
+    .footerText {
+        font-size: 14px;
+    }
+}

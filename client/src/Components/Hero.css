@@ -129,3 +129,46 @@
         z-index: 0;
         position: relative;
     }
+
+@media screen and (max-width: 1250px) {
+    .heroContainer {
+        padding: 20px 150px;
+    }
+
+    .skillsContainer {
+        padding: 20px 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .heroContainer {
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .heroContainer {
+        margin-top: 100px;
+        padding: 20px 60px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroContainerLeft {
+        height: auto;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .heroContainerRight {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heroContainer {
+        padding: 20px 40px;
+    }
+}
