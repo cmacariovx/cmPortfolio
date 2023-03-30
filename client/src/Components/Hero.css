@@ -1,0 +1,131 @@
+.heroContainer {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+    .heroContainerLeft {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .heroContainerLeftTitle {
+            font-size: 42px;
+            margin-bottom: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .heroContainerLeftSubTitle {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            background: linear-gradient(90deg, #1c4893 0%, #6ee4ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+            user-select: none;
+        }
+
+        .heroContainerLeftButtonsContainer {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+            .heroContainerLeftButton {
+                height: 45px;
+                min-width: 100px;
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                margin-right: 15px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 14px;
+                background-color: rgb(34, 34, 34);
+                transition: 0.1s linear;
+                user-select: none;
+            }
+
+            .heroContainerLeftButton:hover {
+                transition: 0.1s linear;
+                color: #1c4893;
+            }
+
+            .heroContainerRightButton {
+                height: 45px;
+                min-width: 100px;
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 14px;
+                background-color: rgb(34, 34, 34);
+                transition: 0.1s linear;
+                user-select: none;
+            }
+
+            .heroContainerRightButton:hover {
+                transition: 0.1s linear;
+                color: #21a2ff;
+            }
+
+    .heroContainerRight {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .heroContainerRightText {
+            font-size: 16px;
+            line-height: 2;
+        }
+
+    .heroGradientContainer {
+        position: absolute;
+        height: 800px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    svg {
+        display: flex;
+        z-index: 0;
+        position: relative;
+    }
