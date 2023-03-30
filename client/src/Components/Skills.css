@@ -55,6 +55,7 @@
         .skillsOptionContainerLeftText {
             font-size: 18px;
             user-select: none;
+            margin-right: 20px;
         }
 
         .skillsOptionContainerLeftText2 {

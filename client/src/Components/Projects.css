@@ -85,6 +85,7 @@
             align-items: center;
             padding-left: 20px;
             user-select: none;
+            margin-top: 10px;
         }
 
 @media screen and (max-width: 1250px) {
@@ -106,7 +107,6 @@
 
     .projectsOptionContainerLeftText2 {
         font-size: 16px;
-        margin-top: 10px;
     }
 }
 
@@ -121,5 +121,9 @@
 
     .projectsOptionContainer2 {
         padding: 20px;
+    }
+
+    .projectsOptionContainerLeftText2 {
+        padding-left: 10px;
     }
 }
