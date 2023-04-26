@@ -65,7 +65,7 @@
     }
 
         .projectsOptionContainerLeftText {
-            font-size: 18px;
+            font-size: 17px;
             width: 100%;
             height: auto;
             display: flex;
@@ -76,14 +76,13 @@
         }
 
         .projectsOptionContainerLeftText2 {
-            font-size: 17px;
+            font-size: 15px;
             width: 100%;
             height: auto;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
-            padding-left: 20px;
             user-select: none;
             margin-top: 10px;
         }

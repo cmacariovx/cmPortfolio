@@ -16,7 +16,7 @@ function Hero(props) {
                 </div>
             </div>
             <div className="heroContainerRight">
-                <p className="heroContainerRightText">Self-taught full stack software engineer with a strong foundation in software development principles. Proficiency in JavaScript, various frameworks and libraries including React. Skilled in problem-solving, teamwork, and quickly adapting to new technologies.</p>
+                <p className="heroContainerRightText">Full-stack software engineer with expertise in multiple languages, including JavaScript, Java, and Python. Proficient in diverse technologies, frameworks, and libraries, demonstrating strong capabilities in designing, developing, and optimizing high-performance, scalable applications across various domains.</p>
             </div>
         </div>
     )
