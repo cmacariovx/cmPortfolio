@@ -7,20 +7,20 @@ function Skills(props) {
         <div className="skillsContainer">
             <p className="skillsTitle">Skills</p>
             <div className="skillsOptionContainer1">
-                <p className="skillsOptionContainerLeftText">/ 00 Languages</p>
-                <p className="skillsOptionContainerLeftText2">JavaScript • Java • Python</p>
+                <p className="skillsOptionContainerLeftText">/ 00 Programming Languages</p>
+                <p className="skillsOptionContainerLeftText2">Java • Python • JavaScript • TypeScript</p>
             </div>
             <div className="skillsOptionContainer1">
                 <p className="skillsOptionContainerLeftText">/ 01 Back-end</p>
-                <p className="skillsOptionContainerLeftText2">SQL • PostgreSQL • MongoDB • Express.js • Node.js • REST APIs • Mongoose • TensorFlow.js</p>
+                <p className="skillsOptionContainerLeftText2">REST APIs • Spring Boot • Node.js • SQL • PostgreSQL • MongoDB • Express.js</p>
             </div>
             <div className="skillsOptionContainer1">
                 <p className="skillsOptionContainerLeftText">/ 02 Front-end</p>
-                <p className="skillsOptionContainerLeftText2">React • Redux • HTML • CSS • React Native</p>
+                <p className="skillsOptionContainerLeftText2">React • Redux • React Native • HTML • CSS</p>
             </div>
             <div className="skillsOptionContainer2">
-                <p className="skillsOptionContainerLeftText">/ 03 Main Tools</p>
-                <p className="skillsOptionContainerLeftText2">Git • AWS • Firebase • Heroku • pgAdmin • MongoDB Atlas • Linux • Postman • VS Code • Agile</p>
+                <p className="skillsOptionContainerLeftText">/ 03 Misc</p>
+                <p className="skillsOptionContainerLeftText2">Git • AWS • Docker • Nginx • Linux • OOP • Cloud Computing • English • Spanish</p>
             </div>
         </div>
     )
